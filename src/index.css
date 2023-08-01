@@ -1,0 +1,25 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+    font-family: Open Sans;
+    line-height: 1.5;
+    font-weight: 400;
+}
+.productImg{
+    height: 300px;
+  }
+
+@media screen and (max-width: 1024px)  {
+    .productImg {
+      height: 220px;
+    }
+  }
+ 
+@media screen and (max-width: 768px)  {
+    .productImg {
+      height: 180px;
+    }
+  }
+ 

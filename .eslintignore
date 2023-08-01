@@ -1,0 +1,9 @@
+node_modules/
+dist/
+.prettierrc
+.eslintrc.cjs
+tailwind.config.cjs
+postcss.config.cjs
+vite.config.ts
+*.css
+*.svg
