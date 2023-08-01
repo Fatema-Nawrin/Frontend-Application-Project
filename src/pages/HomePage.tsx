@@ -1,6 +1,6 @@
 import { NavLink } from 'react-router-dom';
 import Loading from '../components/Loading';
-import { useGetConfigurationByIdQuery } from '../redux/configurationApi';
+import { useGetConfigurationByIdQuery } from '../redux/services/configurationApi';
 
 const HomePage = () => {
     const appId = import.meta.env.VITE_APP_ID;

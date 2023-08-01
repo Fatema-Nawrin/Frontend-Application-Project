@@ -4,8 +4,8 @@ import EditOfferDetails from '../components/EditOfferDetails';
 import EditVideo from '../components/EditVideo';
 import Loading from '../components/Loading';
 import SideMenu from '../components/SideMenu';
-import { useGetProductsQuery } from '../redux/productsApi';
-import { useGetTrlsQuery } from '../redux/trlApi';
+import { useGetProductsQuery } from '../redux/services/productsApi';
+import { useGetTrlsQuery } from '../redux/services/trlApi';
 
 const EditPage = () => {
     const { data: products, isLoading } = useGetProductsQuery();

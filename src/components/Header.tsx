@@ -1,10 +1,10 @@
-import { useGetConfigurationByIdQuery } from '../redux/configurationApi';
+import { useGetConfigurationByIdQuery } from '../redux/services/configurationApi';
 import logo from '../assets/Logo.svg';
 import { LiaSearchSolid } from 'react-icons/lia';
 import { AiOutlineMessage } from 'react-icons/ai';
 import { AiOutlineDown } from 'react-icons/ai';
 import { PiBell } from 'react-icons/pi';
-import { useGetProductsQuery } from '../redux/productsApi';
+import { useGetProductsQuery } from '../redux/services/productsApi';
 import Loading from './Loading';
 
 const Header = () => {

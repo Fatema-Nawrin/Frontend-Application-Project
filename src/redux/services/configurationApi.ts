@@ -1,6 +1,6 @@
 import { createApi } from '@reduxjs/toolkit/query/react';
 import { axiosBaseQuery } from './axiosBaseQuery';
-import { Configuration } from './types';
+import { Configuration } from '../types';
 
 export const configurationApi = createApi({
     reducerPath: 'configurationApi',

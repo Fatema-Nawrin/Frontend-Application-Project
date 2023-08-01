@@ -4,7 +4,7 @@ import OfferDetails from '../components/OfferDetails';
 import ProductDescription from '../components/ProductDescription';
 import SideMenu from '../components/SideMenu';
 import VideoDetails from '../components/VideoDetails';
-import { useGetProductsQuery } from '../redux/productsApi';
+import { useGetProductsQuery } from '../redux/services/productsApi';
 
 const ViewPage = () => {
     const { data: products, isLoading } = useGetProductsQuery();

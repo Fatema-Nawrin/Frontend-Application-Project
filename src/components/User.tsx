@@ -1,7 +1,7 @@
 import { ProductData } from '../redux/types';
 import logo from '../assets/Logo.svg';
 import { PiMapPinLight } from 'react-icons/pi';
-import { useGetConfigurationByIdQuery } from '../redux/configurationApi';
+import { useGetConfigurationByIdQuery } from '../redux/services/configurationApi';
 import Loading from './Loading';
 
 const User = ({ products }: { products: ProductData }) => {

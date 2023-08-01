@@ -1,4 +1,4 @@
-import { useUpdateProductMutation } from '../redux/productsApi';
+import { useUpdateProductMutation } from '../redux/services/productsApi';
 import { ProductData } from '../redux/types';
 import { useForm, SubmitHandler } from 'react-hook-form';
 type FormValues = {

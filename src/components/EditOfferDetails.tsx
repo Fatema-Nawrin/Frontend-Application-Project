@@ -1,5 +1,5 @@
 import { useForm, SubmitHandler } from 'react-hook-form';
-import { useUpdateProductMutation } from '../redux/productsApi';
+import { useUpdateProductMutation } from '../redux/services/productsApi';
 type trlObj = {
     id: string;
     name: string;

@@ -2,7 +2,7 @@ import ReactQuill from 'react-quill';
 import 'react-quill/dist/quill.snow.css';
 import { useForm, SubmitHandler, Controller } from 'react-hook-form';
 import { ProductData } from '../redux/types';
-import { useUpdateProductMutation } from '../redux/productsApi';
+import { useUpdateProductMutation } from '../redux/services/productsApi';
 
 type FormValues = {
     description: string;

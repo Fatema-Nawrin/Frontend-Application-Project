@@ -1,5 +1,5 @@
 import { NavLink } from 'react-router-dom';
-import { useGetConfigurationByIdQuery } from '../redux/configurationApi';
+import { useGetConfigurationByIdQuery } from '../redux/services/configurationApi';
 import Loading from './Loading';
 
 const EditHeader = () => {

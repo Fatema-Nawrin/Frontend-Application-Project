@@ -1,6 +1,6 @@
 import { createApi } from '@reduxjs/toolkit/query/react';
 import { axiosBaseQuery } from './axiosBaseQuery';
-import { ProductData } from './types';
+import { ProductData } from '../types';
 
 export const productsApi = createApi({
     reducerPath: 'productsApi',

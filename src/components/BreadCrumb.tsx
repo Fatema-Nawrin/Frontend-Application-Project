@@ -1,6 +1,6 @@
 import { RiHomeLine } from 'react-icons/ri';
 import { FaChevronRight } from 'react-icons/fa';
-import { useGetConfigurationByIdQuery } from '../redux/configurationApi';
+import { useGetConfigurationByIdQuery } from '../redux/services/configurationApi';
 import { NavLink } from 'react-router-dom';
 import Loading from './Loading';
 
